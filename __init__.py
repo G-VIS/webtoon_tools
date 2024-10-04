@@ -1,4 +1,4 @@
-from .separate import SeparateHighlightNode
+from .separate import SeparateHighlightNode,SeparateHighlight_BlackTransparencyNode
 
 import os
 import subprocess
@@ -21,5 +21,6 @@ install_requirements()
 
 
 NODE_CLASS_MAPPINGS = {
-    "SeparateHighlight": SeparateHighlightNode
+    "SeparateHighlight": SeparateHighlightNode,
+    "SeparateHighlight_BlackTransparency": SeparateHighlight_BlackTransparencyNode
 }
